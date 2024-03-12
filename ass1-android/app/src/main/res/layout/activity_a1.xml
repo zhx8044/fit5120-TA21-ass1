@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0f7fa"
+    android:id="@+id/A1"
+    tools:context=".ActivityA1">
+
+    <ImageView
+        android:id="@+id/cur_index_sunPicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sun"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/cur_index_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE CURRENT INDEX"
+        style="@style/title"
+        app:layout_constraintTop_toBottomOf="@+id/cur_index_sunPicture"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- The UV index badge -->
+
+    <!-- The UV index state badge -->
+
+    <!-- Recommendations header -->
+
+    <ImageView
+        android:id="@+id/uv_index_badge"
+        android:layout_width="80dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/uvindex"
+        app:layout_constraintEnd_toStartOf="@+id/uv_index_state_badge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cur_index_title" />
+
+    <ImageView
+        android:id="@+id/uv_index_state_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="76dp"
+        android:src="@drawable/state_of_uvindex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/uv_index_badge"
+        app:layout_constraintTop_toBottomOf="@+id/cur_index_title" />
+
+    <TextView
+        android:id="@+id/recommendations_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RECOMMENDED ACTIONS"
+        style="@style/title"
+        app:layout_constraintTop_toBottomOf="@+id/uv_index_badge"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="18dp"/>
+
+    <ImageView
+        android:id="@+id/recommind_uvindex"
+        android:layout_width="357dp"
+        android:layout_height="182dp"
+        app:layout_constraintStart_toStartOf="@+id/recommendations_header"
+        app:layout_constraintTop_toBottomOf="@+id/recommendations_header"
+        app:srcCompat="@drawable/recommind_uvindex"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <TextView
+        android:id="@+id/cur_index_backText"
+        style="@style/link_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintTop_toBottomOf="@+id/recommind_uvindex"
+
+
+
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="665dp"
+        />
+
+<!--    <TextView-->
+<!--        android:id="@+id/cur_index_continueText"-->
+<!--        style="@style/link_text"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Continue"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/recommind_uvindex"-->
+
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="329dp"-->
+<!--        tools:layout_editor_absoluteY="665dp" />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

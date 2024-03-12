@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BFragment">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:background="#e0f7fa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/reminder_sunPicture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sun" />
+
+        <TextView
+            android:id="@+id/reminder_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REMINDERS CURRENT"
+            style="@style/title"
+            android:layout_marginTop="15dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <Button
+                android:id="@+id/reminder_addButton"
+                android:layout_above="@id/reminder_backText"
+                android:layout_centerHorizontal="true"
+                android:text="Add Reminder"
+                android:textSize="15sp"
+                android:background="@drawable/button_style1"
+                style="@style/button1" />
+
+            <TextView
+                android:id="@+id/reminder_backText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Back"
+                style="@style/link_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

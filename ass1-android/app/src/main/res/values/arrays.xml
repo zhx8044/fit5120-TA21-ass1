@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="australian_states">
+        <item>New South Wales</item>
+        <item>Victoria</item>
+        <item>Queensland</item>
+        <item>Western Australia</item>
+        <item>South Australia</item>
+        <item>Tasmania</item>
+        <item>Australian Capital Territory</item>
+        <item>Northern Territory</item>
+    </string-array>
+
+    <string-array name="default_suburbs">
+    </string-array>
+
+    <string-array name="suburbs_australian_capital_territory">
+        <item>Canberra</item>
+    </string-array>
+
+    <string-array name="suburbs_new_south_wales">
+        <item>Sydney</item>
+        <item>Albury</item>
+        <item>Armidale</item>
+        <item>Bathurst</item>
+        <item>Broken Hill</item>
+        <item>Cessnock</item>
+        <item>Coffs Harbour</item>
+        <item>Dubbo</item>
+        <item>Gosford</item>
+        <item>Goulburn</item>
+        <item>Grafton</item>
+        <item>Griffith</item>
+        <item>Lake Macquarie</item>
+        <item>Lismore</item>
+        <item>Maitland</item>
+        <item>Newcastle</item>
+        <item>Nowra</item>
+        <item>Orange</item>
+        <item>Port Macquarie</item>
+        <item>Queanbeyan</item>
+        <item>Tamworth</item>
+        <item>Tweed Heads</item>
+        <item>Wagga Wagga</item>
+        <item>Wollongong</item>
+        <item>Wyong</item>
+    </string-array>
+
+    <string-array name="suburbs_victoria">
+        <item>Melbourne</item>
+        <item>Ararat</item>
+        <item>Benalla</item>
+        <item>Ballarat</item>
+        <item>Bendigo</item>
+        <item>Geelong</item>
+        <item>Mildura</item>
+        <item>Shepparton</item>
+        <item>Swan Hill</item>
+        <item>Wangaratta</item>
+        <item>Warrnambool</item>
+        <item>Wodonga</item>
+        <item>Maryborough</item>
+    </string-array>
+
+    <string-array name="suburbs_queensland">
+        <item>Brisbane</item>
+        <item>Bundaberg</item>
+        <item>Cairns</item>
+        <item>Coolangtta</item>
+        <item>Gladstone</item>
+        <item>Gold Coast region</item>
+        <item>Gympie</item>
+        <item>Harvey Bay region</item>
+        <item>Ipswich</item>
+        <item>Logan</item>
+        <item>Mackay</item>
+        <item>Maryborough</item>
+        <item>Mount Isa</item>
+        <item>Southport</item>
+        <item>Rockhampton</item>
+        <item>Sunshine Coast region</item>
+        <item>Toowoomba</item>
+        <item>Townsville</item>
+    </string-array>
+
+    <string-array name="suburbs_western_australia">
+        <item>Perth</item>
+        <item>Albany</item>
+        <item>Broome</item>
+        <item>Bunbury</item>
+        <item>Geraldton</item>
+        <item>Fremantle</item>
+        <item>Kalgoorlie</item>
+        <item>Mandurah</item>
+        <item>Port Hedland</item>
+    </string-array>
+
+    <string-array name="suburbs_south_australia">
+        <item>Adelaide</item>
+        <item>Port Augusta</item>
+        <item>Port Lincoln</item>
+    </string-array>
+
+    <string-array name="suburbs_tasmania">
+        <item>Hobart</item>
+        <item>Burnie</item>
+        <item>Devonport</item>
+        <item>Port Arthur</item>
+        <item>Launceston</item>
+        <item>Ross</item>
+        <item>Bruny Island</item>
+        <item>Cradle Mountain</item>
+        <item>Gordon Dam</item>
+        <item>Strahan</item>
+    </string-array>
+
+    <string-array name="suburbs_northern_territory">
+        <item>Darwin</item>
+        <item>Alice Springs</item>
+    </string-array>
+</resources>

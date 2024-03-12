@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <!-- First menu item, which links to the Home Fragment -->
+    <item
+        android:id="@+id/nav_home_fragment"
+        android:title="Home" />
+
+    <!-- Second menu item, which links to the Add Fragment -->
+<!--    <item-->
+<!--        android:id="@+id/nav_function1_fragment"-->
+<!--        android:title="function1" />-->
+
+<!--    &lt;!&ndash; Third menu item, which links to the View Fragment &ndash;&gt;-->
+<!--    <item-->
+<!--        android:id="@+id/nav_function2_fragment"-->
+<!--        android:title="function2" />-->
+
+    <item android:id="@+id/nav_a"
+        android:title="LOCATION DETAIL" />
+    <item android:id="@+id/nav_b"
+        android:title="PEMINDERS CURRENT" />
+    <item android:id="@+id/nav_c"
+        android:title="REMINDERS" />
+    <item android:id="@+id/nav_d"
+        android:title="TRENDS AND INFO" />
+
+
+
+
+</menu>

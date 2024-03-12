@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".FragmentA1"
+    >
+
+    <!-- Replace with your sun icon drawable -->
+
+    <ImageView
+        android:id="@+id/sunIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sun" />
+
+    <TextView
+        android:id="@+id/currentIndexTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THE CURRENT INDEX"
+        android:layout_below="@id/sunIcon"
+        style="@style/text1"/>
+
+    <TextView
+        android:id="@+id/uvIndexValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UVindex"/>
+
+
+    <Button
+        android:id="@+id/uvIndexLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXTREME" />
+
+    <Button
+        android:id="@+id/readMoreButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Read More"
+        style="@style/button1"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Add navigation arrows if needed -->
+    <!-- ... -->
+
+</FrameLayout>

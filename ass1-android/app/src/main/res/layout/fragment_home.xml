@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:background="#e0f7fa">
+
+        <ImageView
+            android:id="@+id/home_sunPicture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sun" />
+
+        <TextView
+            android:id="@+id/home_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the SunSmart family app"
+            style="@style/title"
+            android:gravity="center"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:id="@+id/home_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UV is life threating. So,  stay safe  whereever you are in Australia."
+            style="@style/text1"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/home_locationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="location loading..."
+            style="@style/text1"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/uvIndexTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uvIndex loading..."
+            style="@style/text1"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+
+        <Button
+            android:id="@+id/home_setLocationButton"
+            android:text="set location"
+            android:textSize="15sp"
+            style="@style/button1"
+            android:background="@drawable/button_style1"
+            android:layout_marginTop="60dp" />
+
+        <Button
+            android:id="@+id/home_viewReminderButton"
+            android:text="view reminders"
+            android:textSize="15sp"
+            style="@style/button1"
+            android:background="@drawable/button_style1"
+            android:layout_marginTop="60dp" />
+    </LinearLayout>
+
+</FrameLayout>

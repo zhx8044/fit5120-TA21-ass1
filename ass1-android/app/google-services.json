@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812973572545",
+    "project_id": "sunsmart-family",
+    "storage_bucket": "sunsmart-family.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812973572545:android:c096da5c64a41d58eb2f40",
+        "android_client_info": {
+          "package_name": "com.example.sunsmartfamily"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbxXyCctMHFLNHQZ4ZUWeLCplc3K9SMts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetLocActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:background="#e0f7fa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/set_loc_sunPicture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sun" />
+
+        <TextView
+            android:id="@+id/set_loc_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOCATION DETAILS"
+            style="@style/title"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:id="@+id/set_loc_setlocPicture"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:srcCompat="@drawable/set_location" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/set_loc_stateText"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="State"
+                style="@style/text1"
+                android:layout_marginRight="16dp" />
+
+            <Spinner
+                android:id="@+id/set_loc_stateSpinner"
+                android:layout_width="240dp"
+                android:layout_height="48dp"
+                android:prompt="@string/choose_your_state"
+                android:entries="@array/australian_states"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/set_loc_suburbText"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Suburb"
+                style="@style/text1"
+                android:layout_marginRight="16dp" />
+
+            <Spinner
+                android:id="@+id/set_loc_suburbSpinner"
+                android:layout_width="240dp"
+                android:layout_height="48dp"
+                android:prompt="@string/choose_your_suburb"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/set_loc_confirmButton"
+            android:text="confirm location"
+            style="@style/button1"
+            android:textSize="15sp"
+            android:background="@drawable/button_style1"
+            android:layout_marginTop="60dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/set_loc_backText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Back"
+                style="@style/link_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

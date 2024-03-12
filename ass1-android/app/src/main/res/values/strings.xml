@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">SunSmart Family</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="choose_your_state">choose your state</string>
+    <string name="choose_your_suburb">choose your suburb</string>
+
+
+    <!-- set location 开始 -->
+    <string-array name="states">
+        <item>Western Australia</item>
+        <item>Northern Territory</item>
+        <item>South Australia</item>
+        <item>Queensland</item>
+        <item>New South Wales</item>
+        <item>Victoria</item>
+        <item>Tasmania</item>
+    </string-array>
+
+    <string-array name="western_australia_suburbs">
+        <item>Perth</item>
+        <item>Fremantle</item>
+        <item>Kalgoorlie-Boulder</item>
+        <item>Broome</item>
+    </string-array>
+
+    <string-array name="northern_territory_suburbs">
+        <item>Darwin</item>
+        <item>Alice Springs</item>
+        <item>Katherine</item>
+        <item>Palmerston</item>
+    </string-array>
+
+    <string-array name="south_australia_suburbs">
+        <item>Adelaide</item>
+        <item>Mount Gambier</item>
+        <item>Gawler</item>
+        <item>Whyalla</item>
+    </string-array>
+
+    <string-array name="queensland_suburbs">
+        <item>Brisbane</item>
+        <item>Gold Coast</item>
+        <item>Cairns</item>
+        <item>Townsville</item>
+    </string-array>
+
+    <string-array name="new_south_wales_suburbs">
+        <item>Sydney</item>
+        <item>Newcastle</item>
+        <item>Wollongong</item>
+        <item>Albury</item>
+    </string-array>
+
+    <string-array name="victoria_suburbs">
+        <item>Melbourne</item>
+        <item>Geelong</item>
+        <item>Ballarat</item>
+        <item>Bendigo</item>
+    </string-array>
+
+    <string-array name="tasmania_suburbs">
+        <item>Hobart</item>
+        <item>Launceston</item>
+        <item>Devonport</item>
+        <item>Burnie</item>
+    </string-array>
+    <!-- set location 结束 -->
+
+</resources>

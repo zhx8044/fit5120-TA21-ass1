@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/B2"
+    tools:context=".ActivityB2">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:background="#e0f7fa"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ImageView
+            android:id="@+id/addReminder2_sunPicture"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/sun" />
+
+        <TextView
+            android:id="@+id/addReminder2_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REMINDERS CUSTOM"
+            style="@style/title"
+            android:layout_marginTop="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/addReminder2_startText"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="START TIME"
+                style="@style/text1"
+                android:layout_marginRight="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/signup_start_dateText"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:text="Date"
+                    style="@style/text1"
+                    android:layout_marginRight="16dp" />
+
+                <EditText
+                    android:id="@+id/addReminder2_start_dateEditText"
+                    android:layout_width="240dp"
+                    android:layout_height="48dp"
+                    android:hint=" Date"
+                    android:inputType="date"
+                    android:background="@drawable/edit_text_border" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/addReminder2_start_timeText"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:text="Time"
+                    style="@style/text1"
+                    android:layout_marginRight="16dp" />
+
+                <EditText
+                    android:id="@+id/addReminder2_start_timeEditText"
+                    android:layout_width="240dp"
+                    android:layout_height="48dp"
+                    android:hint=" Time"
+                    android:inputType="time"
+                    android:background="@drawable/edit_text_border" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:id="@+id/addReminder2_endText"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="END TIME"
+                style="@style/text1"
+                android:layout_marginRight="16dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/addReminder2_end_dateText"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:text="Date"
+                    style="@style/text1"
+                    android:layout_marginRight="16dp" />
+
+                <EditText
+                    android:id="@+id/addReminder2_end_dateEditText"
+                    android:layout_width="240dp"
+                    android:layout_height="48dp"
+                    android:hint=" Date"
+                    android:inputType="date"
+                    android:background="@drawable/edit_text_border" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/addReminder2_end_timeText"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:text="Time"
+                    style="@style/text1"
+                    android:layout_marginRight="16dp" />
+
+                <EditText
+                    android:id="@+id/addReminder2_end_timeEditText"
+                    android:layout_width="240dp"
+                    android:layout_height="48dp"
+                    android:hint=" Time"
+                    android:inputType="time"
+                    android:background="@drawable/edit_text_border" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addReminder2_addButton"
+            android:text="add reminder"
+            style="@style/button1"
+            android:textSize="17sp"
+            android:background="@drawable/button_style1"
+            android:layout_marginTop="60dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/addReminder2_backText"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="Back"
+                style="@style/link_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
